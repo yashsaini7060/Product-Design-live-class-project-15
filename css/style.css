@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #F5F2F0;
+}
+
+
+/* NAVBAR BEGINS */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+  height: 8vh;
+
+}
+
+
+.logo>img{
+  height: 4.5rem;
+}
+
+
+.list{
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+
+.list{
+  list-style-type: none;
+  float: right;
+}
+
+
+.list>li{
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+
+.nav-link{
+  color: #929191;
+}
+
+
+.active-link{
+  color: #000;
+}
+
+
+.list::before{
+  content: "";
+  display: block;
+  width: 35rem;
+  height: 0.2rem;
+  background-color: #000;
+}
+
+
+.burger{
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  border: 0.1rem solid transparent;
+  padding: 1.4rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+
+.burger:hover{
+  border: 0.1rem solid #fffefe;
+}
+
+
+.burger>div{
+  background-color: #000;
+  height: 0.8rem;
+  width: 5rem;
+}
+
+
+
+
+/* NAVBAR ENDS */
