@@ -11,7 +11,7 @@
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 
 html{
-    font-size: 62.5%;
+    font-size: 80%;
     background-color: #111010;
 }
 
@@ -317,13 +317,14 @@ a{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  align-items: center;
+  justify-content: center;
   gap: 3rem;
 }
 
-.portfolio>*{
-  flex: 1 1;
+.page{
+  width: 48%;
 }
-
 
 .box{
   background-color: #1F1F1E;
@@ -331,11 +332,11 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 100%; */
+
 }
 
 .screen-shot{
-  width: 68rem;
+  width: 70rem;
 }
 
 .page>h3{
@@ -435,54 +436,100 @@ a{
 
 /* RESPONSIVE QUERIES */
 
+@media screen and (max-width:2500px) {
+
+  html{
+    font-size: 72.5%;
+  }
+
+
+}
+
+@media screen and (max-width:2250px) {
+
+  html{
+    font-size: 67.5%;
+  }
+
+}
+
+
+@media screen and (max-width:2100px) {
+
+  html{
+    font-size: 63.5%;
+  }
+
+
+}
+
+@media screen and (max-width:2000px) {
+
+  html{
+    font-size: 60%;
+  }
+
+
+}
+
+
+
+@media screen and (max-width:1850px) {
+
+  html{
+    font-size: 56%;
+  }
+
+}
+
+
+
 @media screen and (max-width:1700px) {
 
   html{
     font-size: 50%;
   }
-
-
 }
 
 
 
-
-@media screen and (max-width:1450px) {
+@media screen and (max-width:1550px) {
 
   html{
-    font-size: 45%;
+    font-size: 46%;
   }
-
 }
 
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1400px) {
 
   html{
     font-size: 40%;
   }
 }
 
-
-
-@media screen and (max-width:1220px) {
+@media screen and (max-width:1250px) {
 
   html{
-    font-size: 35%;
+    font-size: 36%;
   }
 }
 
-
-
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1100px) {
 
   html{
     font-size: 30%;
   }
 }
 
+@media screen and (max-width:900px) {
 
-@media screen and (max-width:800px) {
+  html{
+    font-size: 28%;
+  }
+}
+
+@media screen and (max-width:850px) {
 
   html{
     font-size: 30%;
@@ -512,6 +559,10 @@ a{
     padding: 0rem 10rem;
   }
 
+  .screen-shot{
+    width: 55rem;
+  }
+
   .contact{
     flex-direction: column;
   }
@@ -523,11 +574,26 @@ a{
 }
 
 
+@media screen and (max-width:750px) {
+
+  html{
+    font-size: 24%;
+  }
+}
+
+
+@media screen and (max-width:650px) {
+
+  html{
+    font-size: 22%;
+  }
+}
+
 
 @media screen and (max-width:500px) {
 
   html{
-    font-size: 30%;
+    font-size: 28%;
   }
 
   .cards{
@@ -552,9 +618,6 @@ a{
   width: 100%;
 }
 
-.box>img{
-  width:60rem;
-}
 
 
 .contact{
@@ -565,7 +628,7 @@ a{
   padding:2rem 2rem;
 }
 
-}
+} 
 
 
 /* RESPONSIVE QUERIES ENDS*/
