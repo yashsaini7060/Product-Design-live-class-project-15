@@ -104,7 +104,8 @@ nav{
 }
 
 .left-section>img{
-  height: 80vh;
+  /* height: 80vh; */
+  height: 80rem;
 }
 
 .right-section{
@@ -137,6 +138,7 @@ p{
   background-color: #FF0000;
   font-size: 2rem;
   color: #fffF;
+  border: 0rem;
 }
 
 
@@ -398,9 +400,9 @@ a{
 .footer-bottom{
   display: flex;
   background-color: #1F1F1E;
-  padding: 2rem 20rem;
+  padding: 4rem 20rem;
   justify-content: space-between;
-  /*align-items: center; */
+  border: 0rem;
 }
 
 .footer-logo{
@@ -427,3 +429,143 @@ a{
 .empty-div{
   width: 12rem;
 }
+
+/* FOOTER ENDS */
+
+
+/* RESPONSIVE QUERIES */
+
+@media screen and (max-width:1700px) {
+
+  html{
+    font-size: 50%;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width:1450px) {
+
+  html{
+    font-size: 45%;
+  }
+
+}
+
+
+@media screen and (max-width:1300px) {
+
+  html{
+    font-size: 40%;
+  }
+}
+
+
+
+@media screen and (max-width:1220px) {
+
+  html{
+    font-size: 35%;
+  }
+}
+
+
+
+@media screen and (max-width:1150px) {
+
+  html{
+    font-size: 30%;
+  }
+}
+
+
+@media screen and (max-width:800px) {
+
+  html{
+    font-size: 30%;
+  }
+
+
+  .list{
+    display: none;
+  }
+
+
+
+  .main{
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .right-section{
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .cards{
+    padding: 0rem 10rem;
+  }
+
+  .contact{
+    flex-direction: column;
+  }
+  .contact-txt{
+    width: 80%;
+  }
+
+
+}
+
+
+
+@media screen and (max-width:500px) {
+
+  html{
+    font-size: 30%;
+  }
+
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 70%;
+  }
+
+.numbers{
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-2{
+  margin: 0rem 5rem;
+}
+
+.page{
+  width: 100%;
+}
+
+.box>img{
+  width:60rem;
+}
+
+
+.contact{
+  text-align: center;
+}
+
+.footer-bottom{
+  padding:2rem 2rem;
+}
+
+}
+
+
+/* RESPONSIVE QUERIES ENDS*/
